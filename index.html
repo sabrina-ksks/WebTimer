@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>WebTimer</title>
+</head>
+<body>
+  <p id="top-str">WebTimerで遊ぼう！</p>
+  <div id="timer">
+    <table>
+      <tr>
+        <td><button type="button" class="set-btn" id="inc-hour">︿</button></td>
+        <td></td>
+        <td><button type="button" class="set-btn" id="inc-min">︿</button></td>
+        <td></td>
+        <td><button type="button" class="set-btn" id="inc-sec">︿</button></td>
+      </tr>
+      <tr class="time">
+        <td><span id="hour"></span></td>
+        <td>:</td>
+        <td><span id="min"></span></td>
+        <td>:</td>
+        <td><span id="sec"></span></td>
+      </tr>
+      <tr>
+        <td><button type="button" class="set-btn" id="dec-hour">﹀</button></td>
+        <td></td>
+        <td><button type="button" class="set-btn" id="dec-min">﹀</button></td>
+        <td></td>
+        <td><button type="button" class="set-btn" id="dec-sec">﹀</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" class="ctrl-btn" id="start">START</button></td>
+        <td></td>
+        <td><button type="button" class="ctrl-btn" id="pause">PAUSE</button></td>
+        <td></td>
+        <td><button type="button" class="ctrl-btn" id="reset">RESET</button></td>
+      </tr>
+    </table>
+  </div>
+  <script type="text/javascript" src="timer.js"></script>
+</body>
+</html>

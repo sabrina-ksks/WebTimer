@@ -1,0 +1,29 @@
+#top-str {
+  margin-bottom: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  text-align: center;
+  background-color: grey;
+}
+
+.time {
+  font-size: 70px;
+  background-color: lightblue;
+}
+
+.set-btn {
+  width: 100px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.ctrl-btn {
+  width: 120px;
+  padding: 15px 0;
+  margin: 50px auto;
+  font-size: 20px;
+}
